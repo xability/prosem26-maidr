@@ -1,0 +1,1147 @@
+/* ===========================================
+   SPECIFIC SLIDE STYLING
+   =========================================== */
+
+/* Data Viz Divide slide - clean left-right alignment */
+.reveal .slides section.data-viz-divide-slide {
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.reveal .slides section.data-viz-divide-slide .columns {
+  display: flex !important;
+  align-items: flex-start !important;
+  justify-content: space-between !important;
+  gap: 3rem !important;
+  width: 100% !important;
+  max-width: 90% !important;
+  margin: 2rem 0 !important;
+}
+
+.reveal .slides section.data-viz-divide-slide .column {
+  flex: 1 !important;
+  padding: 0 1rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.reveal .slides section.data-viz-divide-slide .column h3 {
+  text-align: center !important;
+  margin-bottom: 1.5rem !important;
+  font-size: 1.4rem !important;
+  color: var(--primary-white) !important;
+  font-weight: bold !important;
+}
+
+.reveal .slides section.data-viz-divide-slide .column ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin: 0 !important;
+}
+
+.reveal .slides section.data-viz-divide-slide .column li {
+  margin: 0.8rem 0 !important;
+  padding: 0.5rem 0 !important;
+  font-size: 1.1rem !important;
+  line-height: 1.4 !important;
+  color: var(--text-light) !important;
+}
+
+/* Design for Them slide - text and image alignment */
+.reveal .slides section.design-for-them-slide {
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.reveal .slides section.design-for-them-slide .columns {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 3rem !important;
+  width: 100% !important;
+  max-width: 90% !important;
+  margin: 2rem 0 !important;
+}
+
+.reveal .slides section.design-for-them-slide .column {
+  flex: 1 !important;
+  padding: 0 1rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+}
+
+.reveal .slides section.design-for-them-slide .column ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin: 0 !important;
+}
+
+.reveal .slides section.design-for-them-slide .column li {
+  margin: 1rem 0 !important;
+  padding: 0.5rem 0 !important;
+  font-size: 1.1rem !important;
+  line-height: 1.4 !important;
+  color: var(--text-light) !important;
+}
+
+.reveal .slides section.design-for-them-slide .column img {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 auto !important;
+  border-radius: 8px !important;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Design for Us slide - clean column layout with centered image */
+.reveal .slides section.design-for-us-slide {
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.reveal .slides section.design-for-us-slide .columns {
+  display: flex !important;
+  align-items: flex-start !important;
+  justify-content: space-between !important;
+  gap: 3rem !important;
+  width: 100% !important;
+  max-width: 90% !important;
+  margin: 2rem 0 !important;
+}
+
+.reveal .slides section.design-for-us-slide .column {
+  flex: 1 !important;
+  padding: 0 1rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.reveal .slides section.design-for-us-slide .column h3 {
+  text-align: center !important;
+  margin-bottom: 1.5rem !important;
+  font-size: 1.4rem !important;
+  color: var(--primary-white) !important;
+  font-weight: bold !important;
+}
+
+.reveal .slides section.design-for-us-slide .column ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin: 0 !important;
+}
+
+.reveal .slides section.design-for-us-slide .column li {
+  margin: 0.8rem 0 !important;
+  padding: 0.5rem 0 !important;
+  font-size: 1.1rem !important;
+  line-height: 1.4 !important;
+  color: var(--text-light) !important;
+}
+
+.reveal .slides section.design-for-us-slide img {
+  max-width: 80% !important;
+  height: auto !important;
+  display: block !important;
+  margin: 2rem auto !important;
+  border-radius: 8px !important;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Static braille demonstration: keep the source aspect ratio and bypass
+   Reveal's automatic r-stretch sizing (the image is .nostretch in QMD). */
+.reveal .slides section.feels-slide > p {
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.reveal .slides section.feels-slide img[src*="box-plot"],
+.reveal .slides section.feels-slide img[data-src*="box-plot"] {
+  box-sizing: border-box;
+  width: 960px !important;
+  max-width: 85% !important;
+  min-width: 0 !important;
+  max-height: 540px !important;
+  height: auto !important;
+  object-fit: contain;
+  margin: 0 auto !important;
+}
+
+/* Updated: Force refresh - Thank You slide - professional presentation ending */
+.reveal .slides section.thank-you-slide {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  padding: 0 !important;
+  height: 100vh !important;
+}
+
+.reveal .slides section.thank-you-slide h2 {
+  font-size: 4rem !important;
+  color: var(--primary-white) !important;
+  font-weight: bold !important;
+  margin-bottom: 3rem !important;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.5) !important;
+  letter-spacing: 0.1em !important;
+}
+
+.reveal .slides section.thank-you-slide ul {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 2rem 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 1.5rem !important;
+}
+
+.reveal .slides section.thank-you-slide li {
+  background: transparent !important;
+  border: none !important;
+  padding: 0.5rem 0 !important;
+  border-radius: 0 !important;
+  font-size: 1.3rem !important;
+  color: var(--text-light) !important;
+  box-shadow: none !important;
+  transition: none !important;
+  max-width: none !important;
+}
+
+.reveal .slides section.thank-you-slide li a {
+  color: var(--accent-teal) !important;
+  text-decoration: none !important;
+  font-weight: normal !important;
+}
+
+.reveal .slides section.thank-you-slide p {
+  font-size: 3rem !important;
+  color: var(--primary-white) !important;
+  font-weight: bold !important;
+  margin-top: 3rem !important;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.5) !important;
+  text-align: center !important;
+}
+
+.reveal .slides section.thank-you-slide strong {
+  font-size: 3rem !important;
+  color: var(--primary-white) !important;
+  font-weight: bold !important;
+  margin-top: 3rem !important;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.5) !important;
+  text-align: center !important;
+  display: block !important;
+}
+
+/* Future slide - consistent background positioning */
+.reveal .slides section.future-slide {
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+/* Data Insight slide - consistent background positioning */
+.reveal .slides section.data-insight-slide {
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+/* Fix for bash code block in data-insight slide */
+.reveal .slides section.data-insight-slide pre {
+  margin: 1rem auto !important;
+  max-width: 600px !important;
+}
+
+.reveal .slides section.data-insight-slide pre[class*="bash"] {
+  background: #000000 !important;
+  border-radius: 12px !important;
+  padding: 1.5rem !important;
+  margin: 2rem auto !important;
+  max-width: 600px !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* One visual group: a readable scatterplot and vertically centered audio.
+   Remove the nested paragraph/output margins rather than offsetting the image. */
+.reveal .slides section.sounds-slide .columns {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) minmax(240px, 340px);
+  align-items: center !important;
+  gap: 3rem !important;
+  width: 1100px !important;
+  max-width: 90% !important;
+  margin: 0 !important;
+}
+
+.reveal .slides section.sounds-slide .column {
+  width: auto !important;
+  min-width: 0;
+  padding: 0 !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.reveal .slides section.sounds-slide .cell {
+  width: 100%;
+  margin: 0 !important;
+}
+
+.reveal .slides section.sounds-slide .cell-output-display {
+  margin: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  backdrop-filter: none !important;
+}
+
+.reveal .slides section.sounds-slide .cell-output-display :is(p, figure, .quarto-figure) {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.reveal .slides section.sounds-slide img {
+  box-sizing: border-box;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 0 !important;
+}
+
+.reveal .slides section.sounds-slide audio {
+  width: 100% !important;
+  max-width: 340px !important;
+  margin: 0 !important;
+}
+
+/* Audible slide - text and image alignment */
+.reveal .slides section.audible-slide {
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.reveal .slides section.audible-slide .columns {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 3rem !important;
+  width: 100% !important;
+  max-width: 90% !important;
+  margin: 2rem 0 !important;
+}
+
+.reveal .slides section.audible-slide .column {
+  flex: 1 !important;
+  padding: 0 1rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+}
+
+.reveal .slides section.audible-slide .column ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin: 0 !important;
+}
+
+.reveal .slides section.audible-slide .column li {
+  margin: 1rem 0 !important;
+  padding: 0.5rem 0 !important;
+  font-size: 1.1rem !important;
+  line-height: 1.4 !important;
+  color: var(--text-light) !important;
+}
+
+.reveal .slides section.audible-slide .column img {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 auto !important;
+  border-radius: 8px !important;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Acknowledgments slide - perfectly centered layout */
+.reveal .slides section.acknowledgments-slide {
+  padding: 2rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  height: 100vh !important;
+  overflow-y: auto !important;
+}
+
+/* Center the title properly - higher specificity */
+.reveal .slides section.acknowledgments-slide h2 {
+  text-align: center !important;
+  margin-bottom: 1.5rem !important;
+  width: 100% !important;
+  font-size: 2.2rem !important;
+}
+
+.reveal .slides section.acknowledgments-slide .columns {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: flex-start !important;
+  gap: 3rem !important;
+  margin: 0 auto !important;
+  width: 100% !important;
+  max-width: 85% !important;
+  flex-shrink: 0 !important;
+}
+
+.reveal .slides section.acknowledgments-slide .column {
+  flex: 1 !important;
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  text-align: center !important;
+  min-height: 0 !important;
+}
+
+.reveal .slides section.acknowledgments-slide .column h3 {
+  text-align: center !important;
+  margin-bottom: 1rem !important;
+  font-size: 1.3rem !important;
+  color: var(--primary-white) !important;
+  font-weight: bold !important;
+}
+
+.reveal .slides section.acknowledgments-slide .column ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin: 0 auto !important;
+  flex: 1 !important;
+  width: 100% !important;
+  text-align: center !important;
+}
+
+.reveal .slides section.acknowledgments-slide .column li {
+  margin: 0.4rem 0 !important;
+  padding: 0.2rem 0 !important;
+  font-size: 0.95rem !important;
+  line-height: 1.3 !important;
+  color: var(--text-light) !important;
+  text-align: center !important;
+}
+
+/* Nested columns within Contributors - perfectly centered */
+.reveal .slides section.acknowledgments-slide .column .columns {
+  display: flex !important;
+  gap: 2rem !important;
+  margin: 0 auto !important;
+  width: 100% !important;
+  justify-content: center !important;
+  flex: 1 !important;
+}
+
+.reveal .slides section.acknowledgments-slide .column .column {
+  flex: 1 !important;
+  padding: 0 !important;
+  min-height: 0 !important;
+  text-align: center !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.reveal .slides section.acknowledgments-slide .column .column ul {
+  margin: 0 auto !important;
+  padding: 0 !important;
+  text-align: center !important;
+  width: 100% !important;
+}
+
+.reveal .slides section.acknowledgments-slide .column .column li {
+  margin: 0.4rem 0 !important;
+  padding: 0.2rem 0 !important;
+  font-size: 0.95rem !important;
+  line-height: 1.3 !important;
+  text-align: center !important;
+}
+
+/* "The Magic behind the Scenes" slide - the diagram at a size its labels can
+   be read at. The rule for every image further down (max-width: 80% of a box
+   that is itself no wider than the image) shrinks it to nothing here. */
+.reveal .slides section.architecture-slide img {
+  width: 920px !important;
+  max-width: none !important;
+}
+
+/* A chart py-maidr writes into the page (1.27.0 and later): no translucent
+   panel behind it. That panel is for the frames below, and around an inline
+   chart it shows as a faint band wider than the chart. */
+.reveal .slides section .cell-output-display:has(.maidr-inline) {
+  background: transparent !important;
+  backdrop-filter: none !important;
+}
+
+/* "AI: Just Ask for a Plot" slide - a one-line prompt, so its box is one line
+   tall rather than the 200px every code block is given further down */
+.reveal .slides section.prompt-slide pre {
+  min-height: 0 !important;
+}
+
+/* "But Does It Work With...?" slide - six rows under a lead line, one of them
+   two lines long: closer together, so the heading keeps clear of the top edge */
+.reveal .slides section.works-with-slide li p {
+  margin: 0.35rem 0 !important;
+}
+
+/* Style for highlighted lines - adaptive to theme */
+.code-highlight {
+  font-weight: bold !important;
+}
+
+/* Light theme highlighting */
+.reveal .slides:not(.dark) .code-highlight {
+  /* light text on the dark blue line; black text read at 2:1 */
+  color: #f8fafc !important;
+  background-color: #1e3a8a !important;
+}
+
+/* Remove all borders from code outputs */
+.cell-output-display,
+.cell-output-display *,
+.cell-output-display iframe,
+.cell-output-display pre,
+.cell-output-display code {
+  border: none !important;
+  outline: none !important;
+}
+
+/* Enhanced plot styling with modern visual effects */
+.cell-output-display iframe {
+  border: none !important;
+  border-radius: 12px !important;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15) !important;
+  background: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(2px) !important;
+  margin: 0 !important;
+  display: block !important;
+  /* py-maidr sizes the frame to the chart; reveal.js caps iframes at 95% of
+     a container that is itself as wide as the chart, cutting off its right edge */
+  max-width: none !important;
+}
+
+.cell-output-display iframe:hover {
+  border: none !important;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25) !important;
+}
+
+/* Enhanced plot container styling */
+.cell-output-display {
+  position: relative !important;
+  margin: 1rem 0 !important;
+  padding: 0.5rem !important;
+  background: rgba(0, 0, 0, 0.05) !important;
+  border-radius: 16px !important;
+  backdrop-filter: blur(4px) !important;
+  text-align: left !important;
+  max-width: none !important;
+  width: auto !important;
+}
+
+.cell-output-display:hover {
+  background: rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Enhanced plot titles and captions */
+.cell-output-display h3,
+.cell-output-display h4,
+.cell-output-display p {
+  color: #f8fafc !important;
+  text-align: center !important;
+  margin: 0.5rem 0 !important;
+  font-weight: 500 !important;
+}
+
+/* Performance plot specific styling - optimized size and alignment */
+.reveal .slides section.performance-slide-1 .cell-output-display,
+.reveal .slides section.performance-slide-2 .cell-output-display {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 1rem auto !important;
+  padding: 1rem !important;
+}
+
+.reveal .slides section.performance-slide-1 .cell-output-display iframe,
+.reveal .slides section.performance-slide-2 .cell-output-display iframe {
+  width: 900px !important;
+  height: 500px !important;
+  display: block !important;
+  margin: 0 auto !important;
+  border: 2px solid #333 !important;
+  border-radius: 8px !important;
+  background: white !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Apply default centering style like line plots for all plot slides */
+.reveal .slides section.box-plot-slide,
+.reveal .slides section.histogram-slide,
+.reveal .slides section.multipanel-slide,
+.reveal .slides section.performance-slide-1,
+.reveal .slides section.performance-slide-2 {
+  text-align: center !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
+}
+
+/* Center titles like line plots - use default styling */
+.reveal .slides section.box-plot-slide h2,
+.reveal .slides section.histogram-slide h2,
+.reveal .slides section.multipanel-slide h2,
+.reveal .slides section.performance-slide-1 h2,
+.reveal .slides section.performance-slide-2 h2 {
+  text-align: center !important;
+  margin-bottom: 2rem !important;
+}
+
+.reveal .slides section.box-plot-slide .cell-output-display,
+.reveal .slides section.histogram-slide .cell-output-display,
+.reveal .slides section.multipanel-slide .cell-output-display,
+.reveal .slides section.performance-slide-1 .cell-output-display,
+.reveal .slides section.performance-slide-2 .cell-output-display {
+  margin: 0 auto !important;
+  text-align: center !important;
+  /* as wide as the chart frame it holds, which is no longer capped (above) */
+  max-width: none !important;
+  width: auto !important;
+  display: block !important;
+  align-self: center !important;
+  overflow: visible !important;
+}
+
+.reveal .slides section.box-plot-slide .cell-output-display iframe,
+.reveal .slides section.histogram-slide .cell-output-display iframe,
+.reveal .slides section.multipanel-slide .cell-output-display iframe,
+.reveal .slides section.performance-slide-1 .cell-output-display iframe,
+.reveal .slides section.performance-slide-2 .cell-output-display iframe {
+  margin: 0 auto !important;
+  display: block !important;
+  text-align: center !important;
+  align-self: center !important;
+}
+
+/* Plot loading animation removed */
+
+/* Quote styling for the subtitle */
+blockquote {
+  border-left: 4px solid #1e3a8a !important;
+  padding-left: 1.5rem !important;
+  margin: 1rem 0 !important;
+  font-style: italic !important;
+  color: #e2e8f0 !important;
+  font-size: 1.2rem !important;
+}
+
+/* Column headers styling */
+.columns h3 {
+  color: #f8fafc !important;
+  font-size: 1.4rem !important;
+  margin-bottom: 1rem !important;
+  text-align: center !important;
+  padding: 0.5rem !important;
+  background: transparent !important;
+  border-radius: 0 !important;
+  border: none !important;
+}
+
+/* Enhanced bullet points */
+.columns ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+}
+
+.columns li {
+  padding: 0.5rem 0.8rem 0.5rem 1.5rem !important;
+  margin: 0.3rem 0 !important;
+  font-size: 1.1rem !important;
+  line-height: 1.4 !important;
+  border-left: 3px solid #1e3a8a !important;
+}
+
+.columns li:before {
+  content: "" !important;
+  display: none !important;
+}
+
+/* Enhanced contrast for bullet points */
+.columns li {
+  color: #f8fafc !important;
+  font-weight: 500 !important;
+}
+
+.columns li strong {
+  color: #1e3a8a !important;
+  font-weight: 700 !important;
+}
+
+/* Enhanced code block styling for presentations */
+/* section pre - REMOVED TO AVOID CONFLICTS */
+
+/* section pre code - REMOVED TO AVOID CONFLICTS */
+
+/* Clean bullet points */
+section ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+}
+
+section li {
+  padding: 0.6rem 0 !important;
+  margin: 0.4rem 0 !important;
+  font-size: 1.1rem !important;
+  line-height: 1.4 !important;
+  color: #f8fafc !important;
+  background: rgba(0, 0, 0, 0.2) !important;
+  border-radius: 6px !important;
+  padding: 0.8rem 1rem !important;
+  border-left: 3px solid #1e3a8a !important;
+}
+
+/* Enable copy button from code blocks */
+
+/* Allow code blocks to have copy functionality */
+pre {
+  position: relative !important;
+  padding: 1.5rem !important;
+  margin: 1rem 0 !important;
+  min-height: 200px !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3) !important;
+  background: #000000 !important;
+}
+
+/* Make code blocks bigger to accommodate copy buttons */
+.reveal .slides section pre code {
+  font-size: 1.3rem !important;
+  line-height: 1.8 !important;
+  padding: 1rem !important;
+}
+
+/* Ensure copy button is visible and properly styled */
+.code-copy-button,
+.reveal .slides section pre .code-copy-button,
+.reveal .slides section .code-copy-button {
+  display: block !important;
+  position: absolute !important;
+  top: 0.75rem !important;
+  right: 0.75rem !important;
+  z-index: 100 !important;
+  border-radius: 6px !important;
+  padding: 0.4rem 0.6rem !important;
+  background: rgba(255, 255, 255, 0.15) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-size: 0.9rem !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+}
+
+.code-copy-button:hover,
+.reveal .slides section pre .code-copy-button:hover,
+.reveal .slides section .code-copy-button:hover {
+  background: rgba(255, 255, 255, 0.25) !important;
+  border-color: rgba(255, 255, 255, 0.5) !important;
+  color: white !important;
+}
+
+/* Conversational slide text styling */
+section p {
+  color: #e2e8f0 !important;
+  font-size: 1.1rem !important;
+  margin: 0.5rem 0 !important;
+  padding: 0.5rem 0 !important;
+}
+
+section p strong {
+  color: #1e3a8a !important;
+  font-weight: 600 !important;
+}
+
+/* Enhanced quote styling for conversational slide */
+section blockquote {
+  border-left: 4px solid #1e3a8a !important;
+  padding-left: 1.5rem !important;
+  margin: 1rem 0 !important;
+  font-style: italic !important;
+  color: #e2e8f0 !important;
+  font-size: 1.2rem !important;
+  background: rgba(0, 0, 0, 0.3) !important;
+  padding: 1rem !important;
+  border-radius: 8px !important;
+}
+
+/* ===========================================
+   BACKGROUND AND LAYOUT STYLES
+   =========================================== */
+
+/* Apply background to the entire viewport */
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-image: url('images/background-image.png') !important;
+  background-size: 100% 100% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+}
+
+.reveal {
+  background-image: url('images/background-image.png') !important;
+  background-size: 100% 100% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+}
+
+.reveal .slides {
+  background-image: url('images/background-image.png') !important;
+  background-size: 100% 100% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.reveal .slides section {
+  background-image: url('images/background-image.png') !important;
+  background-size: 100% 100% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  height: 100vh !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+/* ===========================================
+   PROFESSIONAL COLOR PALETTE - CLEAN DARK THEME
+   =========================================== */
+
+:root {
+  --primary-white: #ffffff;
+  --secondary-gray: #e2e8f0;
+  --accent-teal: #00b894;              /* Professional teal */
+  --accent-mint: #a8e6cf;              /* Mint green for highlights */
+  --accent-coral: #ff7675;             /* Coral for emphasis */
+  --accent-slate: #636e72;             /* Slate gray for muted elements */
+  --text-light: #f8fafc;
+  --text-muted: #cbd5e1;
+  --highlight-bg: rgba(0, 184, 148, 0.15);
+  --border-color: rgba(0, 184, 148, 0.4);
+  --accent-light-teal: #55efc4;       /* Light teal for code */
+}
+
+/* ===========================================
+   TYPOGRAPHY AND TEXT STYLING
+   =========================================== */
+
+/* Typography and Text Styling */
+.reveal .slides section h1,
+.reveal .slides section h2,
+.reveal .slides section h3,
+.reveal .slides section h4,
+.reveal .slides section h5,
+.reveal .slides section h6 {
+  color: var(--primary-white) !important;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8) !important;
+  font-weight: 700 !important;
+  text-align: center !important;
+  margin-bottom: 1.5rem !important;
+  line-height: 1.2 !important;
+}
+
+.reveal .slides section h1 {
+  font-size: 3rem !important;
+  color: var(--primary-white) !important;
+}
+
+.reveal .slides section h2 {
+  font-size: 2.5rem !important;
+  color: var(--primary-white) !important;
+}
+
+.reveal .slides section h3 {
+  font-size: 2rem !important;
+  color: var(--primary-white) !important;
+}
+
+/* Paragraph and Text Styling */
+.reveal .slides section p {
+  color: var(--text-light) !important;
+  font-size: 1.3rem !important;
+  line-height: 1.6 !important;
+  text-align: center !important;
+  margin: 1rem 0 !important;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.7) !important;
+}
+
+/* List Styling */
+.reveal .slides section ul,
+.reveal .slides section ol {
+  text-align: left !important;
+  margin: 1.5rem auto !important;
+  max-width: 80% !important;
+}
+
+.reveal .slides section li {
+  color: var(--text-light) !important;
+  font-size: 1.2rem !important;
+  line-height: 1.5 !important;
+  margin: 0.8rem 0 !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7) !important;
+  padding: 0.5rem 0 !important;
+}
+
+.reveal .slides section ul li {
+  border-left: 3px solid #1e3a8a !important;
+  padding-left: 1.5rem !important;
+  margin: 0.5rem 0 !important;
+}
+
+.reveal .slides section ul li::marker {
+  display: none !important;
+}
+
+/* Quote/Blockquote Styling */
+.reveal .slides section blockquote {
+  border-left: 4px solid var(--accent-teal) !important;
+  background: var(--highlight-bg) !important;
+  padding: 1.5rem !important;
+  margin: 2rem auto !important;
+  border-radius: 8px !important;
+  max-width: 85% !important;
+  text-align: center !important;
+}
+
+.reveal .slides section blockquote p {
+  color: var(--text-light) !important;
+  font-style: italic !important;
+  font-size: 1.4rem !important;
+  margin: 0 !important;
+}
+
+/* ===========================================
+   CODE BLOCK STYLING
+   =========================================== */
+
+/* Code Block Styling - REMOVED TO AVOID CONFLICTS */
+
+/* Remove all borders from code blocks */
+.reveal .slides section pre,
+.reveal .slides section code,
+.reveal .slides section .sourceCode,
+.reveal .slides section .highlight {
+  border: none !important;
+  outline: none !important;
+}
+
+/* .reveal .slides section pre code - REMOVED TO AVOID CONFLICTS */
+
+/* Inline Code Styling */
+.reveal .slides section code:not(pre code) {
+  background: rgba(0, 184, 148, 0.2) !important;
+  color: var(--accent-light-teal) !important;
+  padding: 0.2rem 0.5rem !important;
+  border-radius: 4px !important;
+  font-family: 'Fira Code', 'Monaco', 'Consolas', monospace !important;
+}
+
+/* ===========================================
+   TEXT EMPHASIS AND HIGHLIGHTING
+   =========================================== */
+
+/* Strong/Bold Text */
+.reveal .slides section strong {
+  color: var(--accent-mint) !important;
+  font-weight: 700 !important;
+}
+
+/* Emphasis/Italic Text */
+.reveal .slides section em {
+  color: var(--text-muted) !important;
+  font-style: italic !important;
+}
+
+/* ===========================================
+   LAYOUT COMPONENTS
+   =========================================== */
+
+/* Column Layout Styling */
+.reveal .slides section .columns {
+  margin: 2rem 0 !important;
+  align-items: flex-start !important;
+}
+
+.reveal .slides section .columns h3 {
+  background: transparent !important;
+  border: none !important;
+  padding: 0.5rem !important;
+  border-radius: 0 !important;
+  margin-bottom: 1rem !important;
+  text-align: center !important;
+}
+
+.reveal .slides section .column {
+  padding: 0 1rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+}
+
+/* Table Styling */
+.reveal .slides section table {
+  margin: 2rem auto !important;
+  background: rgba(0, 0, 0, 0.6) !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3) !important;
+}
+
+.reveal .slides section th {
+  background: var(--accent-teal) !important;
+  color: var(--primary-white) !important;
+  padding: 1rem !important;
+  font-weight: 700 !important;
+}
+
+.reveal .slides section td {
+  color: var(--text-light) !important;
+  padding: 0.8rem 1rem !important;
+  border-bottom: 1px solid var(--border-color) !important;
+}
+
+/* Image Styling */
+.reveal .slides section img {
+  border-radius: 8px !important;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5) !important;
+  margin: 1rem auto !important;
+  display: block !important;
+  max-width: 80% !important;
+  height: auto !important;
+  background: rgba(255, 255, 255, 0.95) !important;
+  padding: 0.5rem !important;
+  position: relative !important;
+  z-index: 10 !important;
+}
+
+/* Full-width images for better impact */
+.reveal .slides section img[src*="box-plot"] {
+  max-width: 90% !important;
+  margin: 2rem auto !important;
+  display: block !important;
+  background: rgba(255, 255, 255, 0.98) !important;
+  border: 2px solid var(--accent-teal) !important;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6) !important;
+}
+
+/* Ensure images are visible over background */
+.reveal .slides section img[src*="design4them"],
+.reveal .slides section img[src*="design4us"] {
+  background: rgba(255, 255, 255, 0.98) !important;
+  border: 2px solid var(--accent-teal) !important;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6) !important;
+  max-width: 90% !important;
+  max-height: 300px !important;
+  width: auto !important;
+  height: auto !important;
+  margin: 1rem auto !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
+  object-fit: contain !important;
+}
+
+/* Debug: Ensure all images are visible */
+.reveal .slides section img {
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
+}
+
+/* ===========================================
+   GENERAL LAYOUT AND CENTERING
+   =========================================== */
+
+/* Center all content */
+.reveal .slides section {
+  text-align: center !important;
+}
+
+/* Matching comparison slides must not depend on Pandoc's tight/loose lists:
+   a loose list wraps text in <p>, whose global 1.3rem rule used to override
+   the 1.1rem list size on "For Them" but not "For Us". */
+.reveal .slides section:is(.design-for-them-slide, .design-for-us-slide) .column li {
+  font-size: 1.3rem !important;
+  line-height: 1.5 !important;
+}
+
+.reveal .slides section:is(.design-for-them-slide, .design-for-us-slide) li > p {
+  font-size: inherit !important;
+  line-height: inherit !important;
+  text-align: left !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Static image wrappers should not add paragraph spacing around an image
+   that already has its own frame. Preserve all image alt text and proportions. */
+.reveal .slides section:is(.design-for-them-slide, .design-for-us-slide, .audible-slide, .architecture-slide) :is(p, figure, .quarto-figure):has(img) {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.reveal .slides section.design-for-us-slide .columns {
+  margin: 0 0 1.5rem !important;
+}
+
+.reveal .slides section.design-for-us-slide img {
+  box-sizing: border-box;
+  width: 640px !important;
+  max-width: 90% !important;
+  max-height: 200px !important;
+  object-fit: contain !important;
+  margin: 0 auto !important;
+}

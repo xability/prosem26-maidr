@@ -1,0 +1,13 @@
+﻿Program,Student level,Students enrolled,On campus,Online,DAIR academic program codes,Note
+MS Library & Information Science,Graduate,518,171,347,10KS0370MS 10KS0370MSU,
+BS Information Sciences + Data Science,Undergraduate,461,461,0,10LP6074BS,
+BS Information Sciences,Undergraduate,386,386,0,10LP5695BS,
+MS Information Management,Graduate,187,187,0,1PKS5581MS,
+PhD Information Sciences,Graduate,148,148,0,10KS0370PHD 10KS5695PHD,"PhD Information Sciences includes 1 student still listed under the program's former name, PhD in Library & Information Science."
+PhD Informatics,Graduate,76,76,0,10KS5094PHD,
+"Non-degree, graduate",Graduate,33,0,33,10KS0370NDEU,
+"Non-degree, undergraduate",Undergraduate,12,12,0,10LP5695NDEG,
+MS Game Development,Graduate,10,0,10,1PKS6240MSU,
+MS Bioinformatics (Information Sciences),Graduate,5,5,0,10KS5956MS,
+CAS Library & Information Science,Graduate,4,0,4,10KS0370CASU,
+Total,,1840,1446,394,,
